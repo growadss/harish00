@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Kannada Trading Academy | Free Market Learning</title>
+  <meta name="description" content="ಕನ್ನಡದಲ್ಲಿ ಷೇರು ಮಾರುಕಟ್ಟೆ ಮತ್ತು Price Action ಕಲಿಯಿರಿ. ಉಚಿತ ಟೆಲಿಗ್ರಾಂ ಚಾನೆಲ್.">
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1986357465393560');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1986357465393560&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans Kannada', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      min-height: 100vh;
+      background: radial-gradient(circle at 50% 15%, #0f1c3f 0%, #080f24 60%, #030611 100%);
+      color: #ffffff;
+      overflow-x: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    /* Ambient Festive Karnataka Glows */
+    .glow-gold {
+      position: absolute;
+      top: -70px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.28) 0%, transparent 70%);
+      filter: blur(55px);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .glow-cyan {
+      position: absolute;
+      bottom: -60px;
+      right: 15%;
+      width: 250px;
+      height: 250px;
+      background: radial-gradient(circle, rgba(14, 165, 233, 0.22) 0%, transparent 70%);
+      filter: blur(55px);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Modern Glass Card */
+    .card {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 395px;
+      background: rgba(15, 28, 63, 0.7);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
+      border-radius: 26px;
+      padding: 24px 18px 16px;
+      text-align: center;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.85), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+    }
+
+    /* Header Live Status Pill */
+    .live-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(245, 158, 11, 0.12);
+      border: 1px solid rgba(245, 158, 11, 0.45);
+      padding: 5px 14px;
+      border-radius: 50px;
+      font-size: 11.5px;
+      color: #fbbf24;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+
+    .pulse-dot {
+      width: 7px;
+      height: 7px;
+      background-color: #fbbf24;
+      border-radius: 50%;
+      animation: blink 1.4s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.8); }
+    }
+
+    /* Kannada Tagline */
+    .kannada-tag {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #38bdf8;
+      margin-bottom: 8px;
+      letter-spacing: 0.3px;
+    }
+
+    /* Headline */
+    h1 {
+      font-size: 21px;
+      font-weight: 800;
+      line-height: 1.35;
+      margin-bottom: 8px;
+      background: linear-gradient(180deg, #ffffff 15%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Subtitle Pitch */
+    p.subtitle {
+      font-size: 12.5px;
+      color: #94a3b8;
+      line-height: 1.45;
+      margin-bottom: 14px;
+    }
+
+    /* 3-Box Feature Grid */
+    .grid-features {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      background: rgba(3, 8, 22, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 12px 14px;
+      margin-bottom: 14px;
+      text-align: left;
+    }
+
+    .grid-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      color: #f1f5f9;
+      font-weight: 500;
+    }
+
+    .grid-item .badge-icon {
+      color: #fbbf24;
+      font-size: 13px;
+      flex-shrink: 0;
+    }
+
+    /* Highlighting Animated CTA Buttons */
+    .cta-btn {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 13px 16px;
+      border-radius: 14px;
+      font-size: 15px;
+      font-weight: 800;
+      text-decoration: none;
+      color: #ffffff;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    /* Button 1: Cyan-Blue Glowing Pulse */
+    .cta-primary {
+      background: linear-gradient(135deg, #0284c7 0%, #0ea5e9 60%, #38bdf8 100%);
+      box-shadow: 0 4px 18px rgba(14, 165, 233, 0.5);
+      animation: pulseCyan 2s infinite ease-in-out;
+      margin-bottom: 8px;
+    }
+
+    @keyframes pulseCyan {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 12px rgba(14, 165, 233, 0.4), 0 0 22px rgba(245, 158, 11, 0.25);
+      }
+      50% {
+        transform: scale(1.02);
+        box-shadow: 0 0 22px rgba(14, 165, 233, 0.8), 0 0 32px rgba(245, 158, 11, 0.45);
+      }
+    }
+
+    /* Button 2: Royal Kannada Gold Pulse */
+    .cta-secondary {
+      background: linear-gradient(135deg, #d97706 0%, #f59e0b 50%, #fbbf24 100%);
+      color: #061126;
+      box-shadow: 0 4px 18px rgba(245, 158, 11, 0.45);
+      animation: pulseGold 2.2s infinite ease-in-out;
+    }
+
+    @keyframes pulseGold {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 10px rgba(245, 158, 11, 0.35);
+      }
+      50% {
+        transform: scale(1.02);
+        box-shadow: 0 0 22px rgba(245, 158, 11, 0.7);
+      }
+    }
+
+    /* Shimmer Effect Across Buttons */
+    .cta-btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.35), transparent);
+      animation: shimmer 2.4s infinite;
+    }
+
+    @keyframes shimmer {
+      100% { left: 100%; }
+    }
+
+    .cta-btn svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+
+    .btn-subtext {
+      display: block;
+      font-size: 10px;
+      font-weight: 500;
+      opacity: 0.92;
+      margin-top: 1px;
+    }
+
+    /* Meta Safe Compliance Disclaimer */
+    .disclaimer {
+      margin-top: 10px;
+      font-size: 9.5px;
+      color: #64748b;
+      line-height: 1.35;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding-top: 8px;
+    }
+
+    /* 5-Second Auto-Redirect Bar */
+    .redirect-box {
+      margin-top: 8px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: rgba(14, 165, 233, 0.12);
+      border: 1px solid rgba(14, 165, 233, 0.35);
+      border-radius: 50px;
+      padding: 4px 14px;
+      font-size: 11px;
+      color: #38bdf8;
+      font-weight: 600;
+    }
+
+    .redirect-seconds {
+      color: #fbbf24;
+      font-weight: 800;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Ambient Glows -->
+  <div class="glow-gold"></div>
+  <div class="glow-cyan"></div>
+
+  <!-- Main Glass Container -->
+  <div class="card">
+    
+    <!-- Top Live Status Pill -->
+    <div class="live-pill">
+      <span class="pulse-dot"></span>
+      ಕನ್ನಡದಲ್ಲಿ ಲೈವ್ ಇಂಡೆಕ್ಸ್ ವಿಶ್ಲೇಷಣೆ
+    </div>
+
+    <!-- Kannada Welcome Line -->
+    <div class="kannada-tag">ನಮಸ್ಕಾರ! ಕನ್ನಡದಲ್ಲೇ ಕಲಿಯಿರಿ ಟ್ರೇಡಿಂಗ್</div>
+
+    <!-- Main Headline -->
+    <h1>Learn Smart Money & Daily Index Levels</h1>
+
+    <!-- Subtitle -->
+    <p class="subtitle">
+      Stop taking blind trades. Nifty & BankNifty ಲೈವ್ ಚಾರ್ಟ್ ಲೆವೆಲ್ಸ್ ಮತ್ತು ಸರಿಯಾದ ರಿಸ್ಕ್ ಮ್ಯಾನೇಜ್ಮೆಂಟ್ ಕಲಿಯಿರಿ.
+    </p>
+
+    <!-- 3-Item Structured Grid -->
+    <div class="grid-features">
+      <div class="grid-item">
+        <span class="badge-icon">✦</span>
+        <span><strong>Daily Setups:</strong> Nifty & BankNifty ಲೈವ್ ಚಾರ್ಟ್ ಸಪೋರ್ಟ್ ಲೆವೆಲ್ಸ್</span>
+      </div>
+      <div class="grid-item">
+        <span class="badge-icon">✦</span>
+        <span><strong>Smart Concepts:</strong> ಸರಳ ಕನ್ನಡದಲ್ಲಿ Price Action & Breakout ನಿಯಮಗಳು</span>
+      </div>
+      <div class="grid-item">
+        <span class="badge-icon">✦</span>
+        <span><strong>Free Community:</strong> 100% ಉಚಿತ ಶೈಕ್ಷಣಿಕ ಸ್ಟಡಿ ಗ್ರೂಪ್</span>
+      </div>
+    </div>
+
+    <!-- CTA Button 1 -->
+    <a href="https://t.me/+UK6QnplB8TxhZWE9" onclick="fbq('track', 'Subscribe');" class="cta-btn cta-primary" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+      <div>
+        <span>JOIN FREE ON TELEGRAM</span>
+        <span class="btn-subtext">(ಉಚಿತವಾಗಿ ಟೆಲಿಗ್ರಾಂನಲ್ಲಿ ಸೇರಿರಿ)</span>
+      </div>
+    </a>
+
+    <!-- CTA Button 2 -->
+    <a href="https://t.me/+UK6QnplB8TxhZWE9" onclick="fbq('track', 'Subscribe');" class="cta-btn cta-secondary" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.52 2.77-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+      <div>
+        <span>JOIN FREE ON TELEGRAM</span>
+        <span class="btn-subtext">(ಈಗಲೇ ಉಚಿತವಾಗಿ ಜಾಯಿನ್ ಆಗಿ)</span>
+      </div>
+    </a>
+
+    <!-- Meta Safe Compliance Disclaimer -->
+    <div class="disclaimer">
+      <strong>ಗಮನಿಸಿ:</strong> ಇದು ಶೈಕ್ಷಣಿಕ ಮತ್ತು ತಾಂತ್ರಿಕ ವಿಶ್ಲೇಷಣೆ ಉದ್ದೇಶಕ್ಕಾಗಿ ಮಾತ್ರ. ಯಾವುದೇ ಹೂಡಿಕೆ ಅಥವಾ ಲಾಭದ ಖಾತರಿ ನೀಡಲಾಗುವುದಿಲ್ಲ. ಷೇರು ಮಾರುಕಟ್ಟೆ ರಿಸ್ಕ್ ಒಳಪಟ್ಟಿರುತ್ತದೆ.
+    </div>
+
+    <!-- 5-Second Auto Redirect Counter Box -->
+    <div class="redirect-box">
+      <span>Auto Redirecting in</span>
+      <span class="redirect-seconds" id="timer">5</span>
+      <span>sec...</span>
+    </div>
+
+  </div>
+
+  <script>
+    // 5-Second Silent Auto Redirect (Without triggering Pixel events)
+    let timeLeft = 5;
+    const timerElem = document.getElementById("timer");
+    const targetUrl = "https://t.me/+UK6QnplB8TxhZWE9";
+
+    const countdown = setInterval(function() {
+      timeLeft--;
+      if (timeLeft >= 0) {
+        timerElem.innerText = timeLeft;
+      }
+      if (timeLeft <= 0) {
+        clearInterval(countdown);
+        // Direct redirect without invoking fbq('track')
+        window.location.href = targetUrl;
+      }
+    }, 1000);
+  </script>
+
+</body>
+</html>
